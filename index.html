@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRM - Surgical Quotation System</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="d-flex" id="wrapper">
+      <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading">
+          <img src="assets/logo.png" alt="Logo" style="width: 150px" />
+        </div>
+        <div class="list-group list-group-flush">
+          <a
+            href="#"
+            class="list-group-item list-group-item-action bg-light"
+            id="dashboard-link"
+            >Dashboard</a
+          >
+          <a
+            href="#"
+            class="list-group-item list-group-item-action bg-light"
+            id="leads-link"
+            >Leads</a
+          >
+          <a
+            href="#"
+            class="list-group-item list-group-item-action bg-light"
+            id="procedures-link"
+            >Procedimientos</a
+          >
+          <a
+            href="#"
+            class="list-group-item list-group-item-action bg-light"
+            id="quotations-link"
+            >Cotizaciones</a
+          >
+        </div>
+      </div>
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light border-bottom"
+        >
+          <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+          <h4 class="ml-4">CRM - Surgical Quotation System</h4>
+        </nav>
+
+        <div class="container-fluid" id="main-content">
+          <!-- Main content will be loaded here dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/leads.js"></script>
+    <script src="js/procedures.js"></script>
+    <script src="js/quotations.js"></script>
+  </body>
+</html>
